@@ -1,4 +1,5 @@
 <?php 
+namespace Lib;
 
 require_once 'iEmailProvider.php';
 

@@ -1,12 +1,10 @@
 <?php
 
-require_once 'MailChimp.php';
-require_once 'MailGun.php';
-require_once 'Sengrid.php';
-require_once 'Mailing.php';
+// load Composer
+require 'vendor/autoload.php';
 
-// $emailObject = new MailChimp();
-$emailObject = new Sengrid();
-$emailService = new Mailing($emailObject);
+// $emailObject can be : MailChimp | MailGun | Sengrid
+$emailObject = new \Lib\Sengrid();
+$emailService = new \Lib\Mailing($emailObject);
 
 var_dump($emailService);
