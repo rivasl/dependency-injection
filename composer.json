@@ -1,0 +1,11 @@
+{
+    "name": "rivasl/di",
+    "description": "Excersise for practice dependency inyection in php.",
+    "authors": [
+        {
+            "name": "Luis",
+            "email": "rivasl.works@gmail.com"
+        }
+    ],
+    "require": {}
+}
